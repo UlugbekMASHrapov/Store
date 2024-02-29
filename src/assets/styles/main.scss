@@ -1,0 +1,21 @@
+@import 'common.scss';
+
+// layouts 
+
+@import '@/layouts/header/header.scss';
+@import '@/layouts/footer/footer.scss';
+// layouts
+
+// component
+@import '@/components/nav/nav.scss';
+@import '@/components/card/ProductsCard/productsCard.scss';
+@import '@/components/card/BasketCard/basketCard.scss';
+// component
+
+// views
+@import '@/views/productsView/productsView.scss';
+@import '@/views/productView/productView.scss';
+@import '@/views/categoriesView/categoriesView.scss';
+@import '@/views/categoryAboutView/categoryAboutView.scss';
+@import '@/views/basketView/basketView.scss';
+// views

@@ -1,0 +1,25 @@
+.footer{
+background:#999;
+padding: 20px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__logo{
+        color: blue;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    &__logotip{
+        color: #fff;
+        font-weight: 400;
+    }
+    &__subtitle{
+        color: #fff;
+        font-size: 23px;
+    }
+}

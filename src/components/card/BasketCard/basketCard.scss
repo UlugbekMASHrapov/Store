@@ -1,0 +1,83 @@
+.basket__card{
+    background: #eee;
+    padding: 15px;
+    border-radius: 20px;
+    max-width: 320px;
+    width: 100%;
+    transition: 0.4s;
+   
+    &-img{
+        max-width: 350px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    
+      }
+      &__swiper-slide{
+        max-width: 355px;
+        width: 100%;
+        min-height: 300px;
+      }
+      
+     &__swiper {
+     max-width: 355px;
+     width: 100%;
+     min-height: 300px;
+      }
+      &-txt{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      &-title{
+        font-size: 23px;
+        color: #333;
+      }
+      &-subtitle{
+        font-size: 14px;
+        color: #333;
+      }
+      &-counts{
+        display: flex;
+        align-items: center;
+       
+      }
+      &-count{
+        padding: 5px 0; 
+        max-width: 60px;
+        width: 100%;
+        background: #999;
+        text-align: center;
+      }
+      &-symb{
+        padding: 5px;
+        background: #999;
+        cursor: pointer;
+      }
+      &-delete{
+        padding: 10px 0;
+        max-width: 100px;
+        width: 100%;
+        background: rgb(88, 88, 197);
+        text-align: center;
+        color: #fff;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+}

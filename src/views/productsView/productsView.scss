@@ -1,0 +1,19 @@
+.products{
+    padding: 15px 0;
+
+    &__title{
+        text-align: center;
+        font-size: 38px;
+    }
+    .content{
+
+        &__cards{
+            display: grid;
+            place-items:  center;
+            grid-template-columns: repeat(auto-fit , minmax(255px , 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        } 
+    }
+   
+}

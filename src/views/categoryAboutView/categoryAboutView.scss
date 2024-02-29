@@ -1,0 +1,10 @@
+.category{
+padding: 30px 0;
+
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(255px,1fr)) ;
+        place-items: center;
+        gap: 30px;
+    }
+}

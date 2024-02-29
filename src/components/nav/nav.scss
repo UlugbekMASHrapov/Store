@@ -1,0 +1,55 @@
+.nav{
+    background: #999;
+    padding: 20px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width:676px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+&__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+&__search{
+    padding: 10px 25px;
+    background: #eee;
+    border: none;
+    border-radius: 30px;
+    
+}
+    &__logo{
+        color: blue;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    &__logotip{
+        color: #fff;
+        font-weight: 400;
+    }
+    &__menu{
+        &-list{
+            display: flex;
+            gap: 30px;
+        }
+        &-link{
+            color: black;
+            font-size: 20px;  
+            padding: 10px 15px;
+            border-radius: 30px;
+            transition: 0.4s;
+            &:hover{
+                color: blue;
+               
+                 background: #fff;
+                        }
+        }
+    }
+}
